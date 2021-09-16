@@ -1,0 +1,36 @@
+.dash{
+    display:flex;
+    width:100%;
+  
+  }
+  .sidemenu{
+    width:15%;
+    height:100vh;
+    background-color:rgb(29, 4, 141);
+    padding:0px;
+    margin:0px;
+  
+  }
+  .users{
+    width:80% !important;
+    height:100vh;
+  }
+  .table{
+    overflow-x: scroll !important;
+  margin-left:1em;
+  }
+  .ulinks{
+    list-style:none;
+    padding-top:2rem;
+    padding-left:0rem;
+  }
+  .ulinks li #a {
+    color:white;
+    text-decoration:none;
+    padding-left:4.5rem;
+    font-size:1.2rem;
+    padding-right:4.3rem;
+  }
+  .ulinks li #a:hover{
+   text-decoration:underline;
+  }
